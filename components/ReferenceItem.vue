@@ -1,5 +1,5 @@
 <template>
-  <a :href="reference.link" target="_blank">
+  <a :href="reference.link" target="_blank" class="group">
     <component
       :is="reference.logo + '-logo'"
       class="
@@ -8,7 +8,7 @@
         h-auto
         fill-current
         text-gray-300
-        hover:text-gray-800
+        group-hover:text-gray-800
       "
     />
   </a>
