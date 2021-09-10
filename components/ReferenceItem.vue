@@ -20,6 +20,7 @@ import HanabosoLogo from '~/assets/images/logos/hanaboso.svg?inline'
 import InteeLogo from '~/assets/images/logos/intee.svg?inline'
 import MountfieldLogo from '~/assets/images/logos/mountfield.svg?inline'
 import SaboItLogo from '~/assets/images/logos/saboit.svg?inline'
+import TwentioLogo from '~/assets/images/logos/twentio.svg?inline'
 import WpjLogo from '~/assets/images/logos/wpj.svg?inline'
 
 export default {
@@ -29,6 +30,7 @@ export default {
     InteeLogo,
     MountfieldLogo,
     SaboItLogo,
+    TwentioLogo,
     WpjLogo,
   },
   props: {

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gap-x-5 justify-start items-center border-b pb-6 mb-6">
+  <div class="flex gap-x-5 justify-start items-center border-b pb-8 mb-4">
     <nuxt-img
       src="/adam-kasper.jpeg"
       width="128"

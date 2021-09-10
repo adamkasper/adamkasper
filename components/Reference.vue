@@ -21,6 +21,10 @@ export default {
           link: 'https://hanaboso.com/',
         },
         {
+          logo: 'twentio',
+          link: 'https://twentio.cz/',
+        },
+        {
           logo: 'wpj',
           link: 'https://www.wpj.cz/',
         },
