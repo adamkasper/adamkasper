@@ -8,7 +8,15 @@
       alt="Adam Kasper"
     />
     <div>
-      <h1 class="text-xl font-bold tracking-wide">Adam Kasper</h1>
+      <h1 class="text-xl font-bold tracking-wide">
+        <a
+          href="https://github.com/adamkasper"
+          target="_blank"
+          class="underline hover:no-underline"
+        >
+          Adam Kasper
+        </a>
+      </h1>
       <p class="text-xs text-gray-400 font-mono tracking-widest">
         web developer |
         <a
