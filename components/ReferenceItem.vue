@@ -3,12 +3,12 @@
     <component
       :is="reference.logo + '-logo'"
       class="
-        w-10/12
-        xs:w-3/4
+        w-full
         h-auto
         fill-current
         text-gray-300
         group-hover:text-gray-800
+        pr-12
       "
     />
   </a>

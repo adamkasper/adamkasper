@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-2 gap-8">
+  <div class="grid grid-cols-2 gap-8 space-ju">
     <reference-item v-for="(item, i) in reference" :key="i" :reference="item" />
   </div>
 </template>
@@ -33,12 +33,12 @@ export default {
           link: 'https://www.damidev.com/',
         },
         {
-          logo: 'intee',
-          link: 'https://intee.cz/',
-        },
-        {
           logo: 'sabo-it',
           link: 'https://www.saboit.de/',
+        },
+        {
+          logo: 'intee',
+          link: 'https://intee.cz/',
         },
       ],
     }
