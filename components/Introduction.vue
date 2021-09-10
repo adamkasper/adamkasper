@@ -17,7 +17,7 @@
           Adam Kasper
         </a>
       </h1>
-      <p class="text-xs text-gray-400 font-mono tracking-widest">
+      <p class="pt-1 text-xs text-gray-400 font-mono tracking-widest">
         web developer |
         <a
           href="mailto:adam@obvio.cz"
