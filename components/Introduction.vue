@@ -1,12 +1,24 @@
 <template>
-  <div class="flex gap-x-5 justify-start items-center border-b pb-8 mb-4">
-    <nuxt-img
-      src="/adam-kasper.jpeg"
-      width="128"
-      height="128"
-      class="rounded-full w-16 h-16"
-      alt="Adam Kasper"
-    />
+  <div
+    class="
+      flex
+      gap-x-5
+      justify-start
+      items-center
+      border-b border-opacity-75
+      pb-8
+      mb-4
+    "
+  >
+    <a href="https://github.com/adamkasper" target="_blank">
+      <nuxt-img
+        src="/adam-kasper.jpeg"
+        width="128"
+        height="128"
+        class="rounded-full w-16 h-16"
+        alt="Adam Kasper"
+      />
+    </a>
     <div>
       <h1 class="text-xl font-bold tracking-wide">
         <a

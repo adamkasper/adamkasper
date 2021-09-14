@@ -1,18 +1,73 @@
 <template>
   <div class="flex justify-center items-center min-h-screen p-4">
-    <div class="w-96">
+    <div class="w-96 my-32">
       <introduction />
-      <reference />
+      <reference-list :items="partners">Spolupráce</reference-list>
+      <reference-list :items="projects">Projekty</reference-list>
+      <copyright />
     </div>
   </div>
 </template>
 
 <script>
 import Introduction from '@/components/Introduction.vue'
-import Reference from '@/components/Reference.vue'
+import ReferenceList from '@/components/ReferenceList.vue'
+import Copyright from '@/components/Copyright.vue'
 
 export default {
-  components: { Introduction, Reference },
+  components: { Introduction, ReferenceList, Copyright },
+  data() {
+    return {
+      partners: [
+        {
+          logo: 'hanaboso',
+          link: 'https://hanaboso.com/',
+        },
+        {
+          logo: 'twentio',
+          link: 'https://twentio.cz/',
+        },
+        {
+          logo: 'wpj',
+          link: 'https://www.wpj.cz/',
+        },
+        {
+          logo: 'sabo-it',
+          link: 'https://www.saboit.de/',
+        },
+        {
+          logo: 'dami-dev',
+          link: 'https://www.damidev.com/',
+        },
+      ],
+      projects: [
+        // {
+        //   logo: 'mountfield',
+        //   link: 'https://www.mountfield.cz/',
+        // },
+        {
+          logo: 'plenky-levne',
+          link: 'https://www.plenkylevne.cz/',
+        },
+        {
+          logo: 'hotel-patria',
+          link: 'https://hotelpatria.cz/',
+        },
+        {
+          logo: 'intee',
+          link: 'https://intee.cz/',
+        },
+        {
+          logo: 'masinuv-statek',
+          link: 'https://masinuvstatek.cz/',
+        },
+        {
+          logo: 'crowning-arts',
+          link: 'https://www.crowningarts.com/',
+        },
+      ],
+    }
+  },
   head() {
     return {
       title: 'Adam Kasper – Web development',
