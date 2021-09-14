@@ -25,20 +25,36 @@ export default {
           link: 'https://twentio.cz/',
         },
         {
+          logo: 'plenky-levne',
+          link: 'https://www.plenkylevne.cz/',
+        },
+        {
+          logo: 'hotel-patria',
+          link: 'https://hotelpatria.cz/',
+        },
+        {
+          logo: 'crowning-arts',
+          link: 'https://www.crowningarts.com/',
+        },
+        {
+          logo: 'intee',
+          link: 'https://intee.cz/',
+        },
+        {
           logo: 'wpj',
           link: 'https://www.wpj.cz/',
         },
         {
-          logo: 'dami-dev',
-          link: 'https://www.damidev.com/',
+          logo: 'masinuv-statek',
+          link: 'https://masinuvstatek.cz/',
         },
         {
           logo: 'sabo-it',
           link: 'https://www.saboit.de/',
         },
         {
-          logo: 'intee',
-          link: 'https://intee.cz/',
+          logo: 'dami-dev',
+          link: 'https://www.damidev.com/',
         },
       ],
     }
