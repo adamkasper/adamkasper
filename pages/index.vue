@@ -41,10 +41,6 @@ export default {
         },
       ],
       projects: [
-        // {
-        //   logo: 'mountfield',
-        //   link: 'https://www.mountfield.cz/',
-        // },
         {
           logo: 'plenky-levne',
           link: 'https://www.plenkylevne.cz/',
@@ -54,12 +50,16 @@ export default {
           link: 'https://hotelpatria.cz/',
         },
         {
-          logo: 'intee',
-          link: 'https://intee.cz/',
-        },
-        {
           logo: 'masinuv-statek',
           link: 'https://masinuvstatek.cz/',
+        },
+        {
+          logo: 'bezpecny-radon',
+          link: 'https://bezpecnyradon.cz/',
+        },
+        {
+          logo: 'intee',
+          link: 'https://intee.cz/',
         },
         {
           logo: 'crowning-arts',
