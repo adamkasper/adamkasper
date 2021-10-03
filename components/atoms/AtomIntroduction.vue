@@ -1,5 +1,5 @@
 <template>
-  <div
+  <header
     class="
       flex
       gap-x-5
@@ -39,5 +39,5 @@
         >
       </p>
     </div>
-  </div>
+  </header>
 </template>

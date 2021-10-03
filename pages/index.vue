@@ -1,21 +1,21 @@
 <template>
-  <div class="flex bg-black justify-center items-center min-h-screen p-4">
+  <main class="flex bg-black justify-center items-center min-h-screen p-4">
     <div class="max-w-sm my-16 md:my-32">
-      <introduction />
-      <reference-list :items="partners">Spolupráce</reference-list>
-      <reference-list :items="projects">Projekty</reference-list>
-      <copyright />
+      <atom-introduction />
+      <molecule-reference :items="partners">Spolupráce</molecule-reference>
+      <molecule-reference :items="projects">Projekty</molecule-reference>
+      <atom-copyright />
     </div>
-  </div>
+  </main>
 </template>
 
 <script>
-import Introduction from '@/components/Introduction.vue'
-import ReferenceList from '@/components/ReferenceList.vue'
-import Copyright from '@/components/Copyright.vue'
+import AtomIntroduction from '@/components/atoms/AtomIntroduction.vue'
+import MoleculeReference from '@/components/molecules/MoleculeReference.vue'
+import AtomCopyright from '@/components/atoms/AtomCopyright.vue'
 
 export default {
-  components: { Introduction, ReferenceList, Copyright },
+  components: { AtomIntroduction, MoleculeReference, AtomCopyright },
   data() {
     return {
       partners: [
