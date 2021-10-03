@@ -6,8 +6,8 @@
         w-full
         h-auto
         fill-current
-        text-gray-300
-        group-hover:text-gray-800
+        text-gray-400
+        group-hover:text-gray-300
         pr-12
       "
     />

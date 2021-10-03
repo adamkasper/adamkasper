@@ -5,7 +5,7 @@
       gap-x-5
       justify-start
       items-center
-      border-b border-opacity-75
+      border-b border-opacity-25
       pb-8
       mb-4
     "
@@ -20,24 +20,23 @@
       />
     </a>
     <div>
-      <h1 class="text-xl font-bold tracking-wide">
+      <h1 class="text-xl text-white font-bold tracking-wide">Adam Kasper</h1>
+      <p class="pt-1 text-xs text-gray-300 font-mono tracking-widest">
         <a
           href="https://github.com/adamkasper"
           target="_blank"
           class="underline hover:no-underline"
         >
-          Adam Kasper
-        </a>
-      </h1>
-      <p class="pt-1 text-xs text-gray-400 font-mono tracking-widest">
-        web developer |
+          web developer</a
+        >
+        <span> | </span>
         <a
           href="mailto:adam@obvio.cz"
           target="_top"
           class="underline hover:no-underline"
         >
-          adam@obvio.cz
-        </a>
+          adam@obvio.cz</a
+        >
       </p>
     </div>
   </div>

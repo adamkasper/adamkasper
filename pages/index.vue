@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-center items-center min-h-screen p-4">
-    <div class="w-96 my-16 md:my-32">
+  <div class="flex bg-black justify-center items-center min-h-screen p-4">
+    <div class="max-w-sm my-16 md:my-32">
       <introduction />
       <reference-list :items="partners">Spolupráce</reference-list>
       <reference-list :items="projects">Projekty</reference-list>
