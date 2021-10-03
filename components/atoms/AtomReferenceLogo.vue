@@ -2,14 +2,7 @@
   <a :href="reference.link" target="_blank" class="group">
     <component
       :is="reference.logo + '-logo'"
-      class="
-        w-full
-        h-auto
-        fill-current
-        text-gray-400
-        group-hover:text-gray-300
-        pr-12
-      "
+      class="w-full h-auto fill-current text-gray-400 group-hover:text-gray-300"
     />
   </a>
 </template>

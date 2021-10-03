@@ -1,11 +1,9 @@
 <template>
-  <footer>
+  <footer class="pt-8 pb-4">
     <p
       class="
-        text-center text-xs
-        py-4
+        text-center text-xs text-gray-300
         font-semibold
-        text-gray-300
         tracking-widest
         uppercase
       "

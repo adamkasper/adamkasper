@@ -5,9 +5,8 @@
       gap-x-5
       justify-start
       items-center
-      border-b border-opacity-25
+      border-b border-gray-700
       pb-8
-      mb-4
     "
   >
     <a href="https://github.com/adamkasper" target="_blank">
@@ -29,7 +28,7 @@
         >
           web developer</a
         >
-        <span> | </span>
+        <span class="text-gray-600"> / </span>
         <a
           href="mailto:adam@obvio.cz"
           target="_top"

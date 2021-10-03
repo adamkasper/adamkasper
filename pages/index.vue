@@ -3,7 +3,9 @@
     <div class="max-w-sm my-16 md:my-32">
       <atom-introduction />
       <molecule-reference :items="partners">Spolupráce</molecule-reference>
-      <molecule-reference :items="projects">Projekty</molecule-reference>
+      <molecule-reference :items="projects" title-class="order-last text-right">
+        Projekty
+      </molecule-reference>
       <atom-copyright />
     </div>
   </main>
