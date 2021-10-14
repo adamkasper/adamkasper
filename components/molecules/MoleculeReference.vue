@@ -1,6 +1,6 @@
 <template>
   <section class="grid grid-cols-5 gap-16 border-b border-gray-700 py-8">
-    <div class="col-span-2 py-2" :class="titleClass">
+    <div class="col-span-2 py-1.5" :class="titleClass">
       <h2
         class="
           text-sm text-gray-300
