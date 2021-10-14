@@ -20,7 +20,7 @@
     </a>
     <div>
       <h1 class="text-xl text-white font-bold tracking-wide">Adam Kasper</h1>
-      <p class="pt-1 text-xs text-gray-300 font-mono tracking-widest">
+      <p class="pt-1 text-xs text-gray-400 font-mono tracking-widest">
         <a
           href="https://github.com/adamkasper"
           target="_blank"

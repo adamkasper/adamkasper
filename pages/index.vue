@@ -70,18 +70,5 @@ export default {
       ],
     }
   },
-  head() {
-    return {
-      title: 'Adam Kasper – Web development',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            'Kompletní dodání webových řešení. Zajistím Vám vše od tvorby wireframů, grafického návrhu, přes vývoj a deployment, až po marketing a následnou správu systému.',
-        },
-      ],
-    }
-  },
 }
 </script>

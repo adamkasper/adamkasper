@@ -1,7 +1,15 @@
 <template>
   <section class="grid grid-cols-5 gap-16 border-b border-gray-700 py-8">
     <div class="col-span-2 py-2" :class="titleClass">
-      <h2 class="text-sm text-gray-300 font-semibold tracking-widest uppercase">
+      <h2
+        class="
+          text-sm text-gray-300
+          font-bold
+          tracking-widest
+          uppercase
+          inline-block
+        "
+      >
         <slot />
       </h2>
     </div>
