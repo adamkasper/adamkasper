@@ -22,6 +22,14 @@ export default {
     return {
       partners: [
         {
+          logo: 'obvio',
+          link: 'https://obvio.cz/',
+        },
+        {
+          logo: 'cfg',
+          link: 'https://comfortfinancegroup.com/',
+        },
+        {
           logo: 'hanaboso',
           link: 'https://hanaboso.com/',
         },
